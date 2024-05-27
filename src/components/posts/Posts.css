@@ -1,0 +1,72 @@
+.posts {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 2rem;
+}
+
+.posts .Title {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.posts h2 {
+  color: var(--text-color);
+  font-size: 2rem;
+  margin: 0;
+}
+
+.posts .view-all {
+  text-decoration: none; 
+  color: var(--text-color); 
+  background-color: var(--secondary-color);
+  border: 2px solid var(--tertiary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 5px; 
+  transition: background-color 0.2s;
+}
+
+.posts .view-all:hover,
+.posts .view-all:focus {
+  background-color: var(--tertiary-color);
+  outline: none;
+}
+
+.posts .post ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.posts .post li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.posts .post li .date {
+  margin-left: 1rem; 
+  white-space: nowrap;
+  color: var(--highlight-color);
+}
+
+.posts .post li .post-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.post-link, .post-link:hover, .post-link:active, .post-link:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-link, .post-link:hover, .post-link:active, .post-link:visited {
+  text-decoration: none;
+  color: inherit;
+}

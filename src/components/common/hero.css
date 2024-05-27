@@ -1,0 +1,40 @@
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 0rem;
+  }
+  
+  .hero-text-box {
+    flex: 1;
+    padding: 2rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+  }
+  
+  .hero-text-box h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text-box p {
+    font-size: 1.0rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-image-box {
+    flex: 0.5;
+    padding: 0rem;
+    background-color: var(--primary-color);
+    text-align: center;
+  }
+  
+  .character-image {
+    width: 100%;
+    max-width: 150px;
+    height: 100%;
+  }
+  
+

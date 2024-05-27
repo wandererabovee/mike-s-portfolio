@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #1e4266; /* Madison */
+  --secondary-color: #112f42; /* Ebony Clay */
+  --tertiary-color: #4b6584; /* Hoki */
+  --highlight-color: #d6a829; /* Confetti */
+  --text-color: #f5f6fa; /* Athens Gray */
+  
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%; 
+  background-color: var(--primary-color);
+}
+
+
+.main-content {
+  background-color: var(--primary-color); 
+  width: 80%; 
+  max-width: 800px; 
+  margin: 2rem auto; 
+  min-height: calc(100vh - 4rem); 
+}
+
